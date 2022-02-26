@@ -1,0 +1,26 @@
+{
+  "name": "es5-validator",
+  "version": "0.1.0",
+  "description": "Validator helper designed to work in ES5",
+  "main": "src/validator.js",
+  "scripts": {
+    "test": "jasmine src/validator-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimmi/es5-validator.git"
+  },
+  "keywords": [
+    "validator",
+    "es5"
+  ],
+  "author": "Gian Marco Gherardi <gianmarco.gherardi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gimmi/es5-validator/issues"
+  },
+  "homepage": "https://github.com/gimmi/es5-validator",
+  "devDependencies": {
+    "jasmine": "^4.0.2"
+  }
+}

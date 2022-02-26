@@ -1,6 +1,11 @@
 /* jshint esversion: 5, asi: true, curly: true */
 /* globals Validator, describe, it, expect */
 
+// This make test run on both node and browser
+if (typeof global === 'object') {
+    global.Validator = require('./Validator')
+}
+
 describe("Validator", function() {
     "use strict";
 
