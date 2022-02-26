@@ -11,8 +11,16 @@ Also see [In browser spec runner](http://gimmi.github.io/es5-validator/spec-runn
 
 ## Use in NodeJS
 
+Install package
+
+```
+npm i @gimmi/es5-validator
+```
+
+use it
+
 ```js
-const Validator = require('es5-validator')
+const Validator = require('@gimmi/es5-validator')
 
 new Validator({ str: 123 }).checkKey('str', Number)
 ```
